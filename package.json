@@ -1,0 +1,22 @@
+{
+  "name": "saucedemo-playwright-example_1",
+  "version": "1.0.0",
+  "description": "Playwright Automation Suite with POM, Data Driven Tests, Custom Fixtures, and Multi-Environment Support",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:dev": "cross-env ENV=dev playwright test",
+    "test:staging": "cross-env ENV=staging playwright test",
+    "test:prod": "cross-env ENV=prod playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1"
+  }
+}

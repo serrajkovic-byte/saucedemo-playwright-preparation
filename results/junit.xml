@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.341347999999998">
+<testsuite name="login.spec.js" timestamp="2026-11-05T22:14:44.254Z" hostname="" tests="1" failures="0" skipped="0" time="1.212" errors="0">
+<testcase name="Sauce Demo Authentication Suite › LOGIN-02: Standard user can log in successfully" classname="login.spec.js" time="1.212">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\login-Sauce-Demo-Authentic-7314e-ser-can-log-in-successfully\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
